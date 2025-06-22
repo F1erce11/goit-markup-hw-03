@@ -9,9 +9,13 @@ img{
 .header{
   border-bottom: 1px solid #e7e9fc;
 }
-.header-nav{
+.header-nav-content{
   display: flex;
   align-items: center;
+}
+.header-logo-content{
+   margin-right: 76px;
+
 }
 .header-logo{
     font-family: "Raleway", sans-serif;
@@ -22,13 +26,21 @@ img{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    margin-right: 76px
 }
 
 .header-span-logo{
     color: #2e2f42;
 }
+.header-menu-content{
+  padding: 24px 0;
+  gap: 40px;
+
+}
+.address-content{
+  display: flex;
+}
 .container{
+  display: flex;
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
