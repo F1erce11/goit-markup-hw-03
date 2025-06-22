@@ -103,6 +103,17 @@ img{
 .features{
  padding: 120px 0 
 }
+.visually-hidden {
+    width: 0px;
+    height: 0px;
+    margin: 0px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 .features-list-content{
  width: calc((100% - 72px) / 4); 
 }
@@ -134,8 +145,7 @@ img{
    color:#2e2f42;
 }
 .review-list-li{
-   background-color: #FFFFFF;
-   width: calc((100% - 72px) / 4);  
+   background-color: #FFFFFF;  
 }
 
 .review-list-item{
