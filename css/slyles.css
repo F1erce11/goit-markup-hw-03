@@ -134,7 +134,8 @@ img{
    color:#2e2f42;
 }
 .review-list-li{
-   background-color: #FFFFFF;  
+   background-color: #FFFFFF;
+   width: calc((100% - 72px) / 4);  
 }
 
 .review-list-item{
@@ -155,6 +156,7 @@ img{
     letter-spacing: 0.02em; 
     text-transform: capitalize;
     color:#2e2f42; 
+    margin-bottom: 8px;
 }
 .portlolio-list-item{
   font-weight: 500;
