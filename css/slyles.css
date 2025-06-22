@@ -37,7 +37,7 @@ img{
 
 }
 .address-content{
-  display: flex;
+  
 }
 .container{
   display: flex;
@@ -103,7 +103,6 @@ img{
    height: 56px;
    border: none;
    border-radius: 4px;
-   display: block;
 }
 .hero-title-button:hover{
   background-color: #404BBF  
@@ -133,12 +132,11 @@ img{
   gap: 24px;
 } 
 .features-list-item{
-   font-weight: 500;
+    font-weight: 500;
    font-size: 20px;
    line-height: 1.2 ;
-   letter-spacing: 0.02em;
+    letter-spacing: 0.02em;
    color:#2e2f42;
-   margin-bottom: 8px;
 }
 .features-title-text{
     line-height: 1.5;
