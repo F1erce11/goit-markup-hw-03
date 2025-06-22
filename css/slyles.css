@@ -32,7 +32,7 @@
 .contacts-list-item-link:hover {
   color: #404bbf;
 }
-.contacts-list-item-link:focus {
+.contacts-list-item-link:focus { 
   color: #404bbf;
 }
 .header-nav-link{
@@ -133,6 +133,7 @@
 }
 .footer{
     background-color:#2e2f42;
+    padding: 100px 0;
 }
 .footer-logo{
   font-family: "Raleway", sans-serif;
@@ -142,6 +143,8 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color:#4d5ae5 ;
+  margin-bottom: 16px;
+  display: inline-block;
 }
 .footer-span-logo{
     color: #f4f4fd ;
@@ -150,4 +153,5 @@
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
+    max-width: 264px;
 }
