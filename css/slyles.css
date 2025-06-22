@@ -6,6 +6,26 @@
 img{
   display: block;
 }
+.container{
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+ }
+ .container .container-header
+{
+    display: flex;
+    align-items: center;
+    width: 1158px;
+}
+.header-nav{
+    display: flex;
+    align-items: center; 
+}
+.header-nav-list{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
 .header-logo{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -35,6 +55,7 @@ img{
 .contacts-list-item-link:focus { 
   color: #404bbf;
 }
+
 .header-nav-link{
   font-weight: 500;
   font-size: 16px;
@@ -50,7 +71,9 @@ img{
   color: #404bbf;
 }
 .hero{
-  background-color: #2e2f42;  
+  background-color: #2e2f42;
+  text-align: center;
+  padding: 188px 0 188px;  
 }
 .hero-title{
   font-size: 56px; 
@@ -58,6 +81,10 @@ img{
   text-align: center; 
   letter-spacing: 0.02em;
   color: #ffffff;
+  max-width: 496px;
+  justify-content: center;
+  text-align: center;
+  margin:auto
 }
 .hero-title-button{
    background-color: #4D5AE5; 
@@ -68,19 +95,41 @@ img{
    letter-spacing: 0.04em;
    color: #ffffff;
    cursor: pointer;
+   display: block;
+   min-width: 169px;
+   height: 56px;
+   text-align: center;
+   border-radius: 4px; 
+   border: none;
+   justify-content: center;
+   margin: 48px auto; 
 }
 .hero-title-button:hover{
   background-color: #404BBF  
 }
 .hero-title-button:focus{
    background-color: #404BBF  
-}  
+}
+.features{
+  padding: 120px 0 120px;
+} 
+.container .container-features{
+  width: 1158px;
+}
+.feature-list{
+  display: flex;
+  gap: 24px; 
+}
+.features-list-list{
+  width: calc((100% - 72px) / 4);
+}
 .features-list-item{
-    font-weight: 500;
-   font-size: 20px;
-   line-height: 1.2 ;
-    letter-spacing: 0.02em;
-   color:#2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2 ;
+  letter-spacing: 0.02em;
+  color:#2e2f42;
+  margin-bottom: 8px;
 }
 .features-title-text{
     line-height: 1.5;
