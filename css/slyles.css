@@ -80,6 +80,7 @@ img{
   text-align: center; 
   letter-spacing: 0.02em;
   color: #ffffff;
+  max-width: 496px;
 }
 .hero-title-button{
    background-color: #4D5AE5; 
