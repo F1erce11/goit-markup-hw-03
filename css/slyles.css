@@ -28,7 +28,7 @@ img{
 .header-span-logo{
     color: #2e2f42;
 }
-.header-nav-top{
+.container{
   display: flex;
   align-items: center;
   width: 1158px;
