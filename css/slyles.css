@@ -3,6 +3,9 @@
  color: #434455;  
  background-color: #ffffff;
 }
+img{
+  display: block;
+}
 
 .header-logo{
     font-family: "Raleway", sans-serif;
