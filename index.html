@@ -7,48 +7,36 @@
     <title>WebStudio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" >
 <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/slyles.css">
 </head>
 
 <body class="body">
     <header class="header">
-    <div class="container">
-      <div class="header-nav-top">  
         <nav class="header-nav">
-            <div class="header-nav-content">
             <a class="header-logo" href="./index.html">Web<span class="header-span-logo">Studio</span></a>
-            <ul class="header-nav-menu">
-                <li><div class="header-logo-content"><a class="header-nav-link" href="./index.html">Web<span class="header-span-logo">Studio</span></a></div></li>
-                <li><div class="header-menu-content"><a class="header-nav-link" href="">Studio</a></div></li>
-                <li><div class="header-menu-content"><a class="header-nav-link" href="">Portfolio</a></div></li>
-                <li><div class="header-menu-content"><a class="header-nav-link" href="">Contacts</a></div></li>
+            <ul>
+                <li><a class="header-nav-link" href="./index.html">Web<span class="header-span-logo">Studio</span></a></li>
+                <li><a class="header-nav-link" href="">Studio</a></li>
+                <li><a class="header-nav-link" href="">Portfolio</a></li>
+                <li><a class="header-nav-link" href="">Contacts</a></li>
             </ul>
         </nav>
         <address class="address">
-            <div class="address-content">
             <ul class="contacts-list">
                 <li class="contacts-list-item" ><a class="contacts-list-item-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                 <li class="contacts-list-item"><a class="contacts-list-item-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
             </ul>
-            </div>
         </address>
-            </div>
-      </div>
-    </div>
     </header>
     <main>
         <section class="hero">
-            <div class="container">
-               <h1 class="hero-title">Effective Solutions for Your Business</h1>
-               <button class="hero-title-button" type="button">Order Service</button>
-            </div>
+            <h1 class="hero-title">Effective Solutions for Your Business</h1>
+            <button class="hero-title-button" type="button">Order Service</button>
         </section>
         <section class="features">
-            <div class="container">
-             <h2 class="visually-hidden">Features</h2>
-             <ul class="features-list">
+            <h2 class="features-title">Features</h2>
+            <ul class="features-list">
                 <li>
                     <h3 class="features-list-item">Strategy</h3>
                     <p class="features-title-text">Our goal is to identify the business
@@ -69,87 +57,73 @@
                     <p class="features-title-text">Design practice focused on digital experiences. We bring forth a deep passion for
                         problem-solving.</p>
                 </li>
-             </ul>
-            </div>
+            </ul>
         </section>
         <section class="review-main">
-        <div class="container">    
             <h2 class="review-title">Our Team</h2>
             <ul class="review-list">
                 <li class="review-list-li">
                     <img src="./images/review-1.jpg" alt="First Reviewer" width="264" height="260">
-                    <div class="review-info">
                     <h3 class="review-list-item">Mark Guerrero</h3>
                     <p class="review-list-text">Product Designer</p>
-                    </div>
                 </li>
                 <li class="review-list-li">
                     <img src="./images/review-2.jpg" alt="Second Reviewer" width="264" height="260">
-                    <div class="review-info">
                     <h3 class="review-list-item">Tom Ford</h3>
                     <p class="review-list-text">Frontend Developer</p>
-                    </div>
                 </li>
                 <li class="review-list-li">
                     <img src="./images/review-3.jpg" alt="Third Reviewer" width="264" height="260">
-                    <div class="rewiew-info">
                     <h3 class="review-list-item">Camila Garcia</h3>
                     <p class="review-list-text">Marketing</p>
-                    </div>
                 </li>
                 <li class="review-list-li">
                     <img src="./images/review-4.jpg" alt="Fourth Reviewer" width="264" height="260">
-                    <div class="rewiew-info">
                     <h3 class="review-list-item">Daniel Wilson</h3>
                     <p class="review-list-text">UI Designer</p>
-                    </div>
                 </li>
             </ul>
-        </div> 
         </section>
         <section class="portfolio">
-        <div class="container">
            <h2 class="portlolio-title">Portfolio</h2> 
            <ul class="portlolio-list">
-            <li class="portfolio-list-list">
+            <li>
                 <img src="./images/portfolio-1.jpg" alt="First Portfolio" width="360" height="300">
                  <h3 class="portlolio-list-item">Banking App</h3>
                  <p class="portlolio-list-text">App</p>
             </li>
-            <li class="portfolio-list-list">
+            <li>
                 <img src="./images/portfolio-2.jpg" alt="Second Portfolio" width="360" height="300">
                  <h3 class="portlolio-list-item">Cashless Payment</h3>
                  <p class="portlolio-list-text">Marketing</p>
             </li>
-            <li class="portfolio-list-list">
+            <li>
                 <img src="./images/portfolio-3.jpg" alt="Third Portfolio" width="360" height="300">
                  <h3 class="portlolio-list-item">Meditation App</h3>
                  <p class="portlolio-list-text">App</p>
             </li>
-            <li class="portfolio-list-list">
+            <li>
                 <img src="./images/portfolio-4.jpg" alt="Fourth Portfolio" width="360" height="300">
                  <h3 class="portlolio-list-item">Taxi Service</h3>
                  <p class="portlolio-list-text">Marketing</p>
             </li>
-            <li class="portfolio-list-list">
+            <li>
                 <img src="./images/portfolio-5.jpg" alt="Fifth Portfolio" width="360" height="300">
                  <h3 class="portlolio-list-item">Screen Illustrations</h3>
                  <p class="portlolio-list-text">Design</p>
             </li>
-            <li class="portfolio-list-list">
+            <li>
                 <img src="./images/portfolio-6.jpg" alt="Sixth Portfolio" width="360" height="300">
                  <h3 class="portlolio-list-item">Online Courses</h3>
                  <p class="portlolio-list-text">Marketing</p>
             </li> 
            </ul>
-        </div>
+
         </section>
     </main>
   <footer class="footer">
-    <div class="container">
     <a class="footer-logo" href="./index.html">Web<span class="footer-span-logo">Studio</span></a>
     <p class="footer-text">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
-    </div>  
-</footer>
+  </footer>
 </body>
 </html>
