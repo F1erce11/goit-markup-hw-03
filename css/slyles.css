@@ -32,6 +32,8 @@ img{
   display: flex;
   align-items: center;
   width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
   
 }
 .header-nav-top ul{
@@ -167,4 +169,8 @@ img{
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
+}
+.footer-content{
+display: inline-block;
+margin-bottom: 16px;
 }
