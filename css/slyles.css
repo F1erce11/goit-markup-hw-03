@@ -100,6 +100,12 @@ img{
 .hero-title-button:focus{
    background-color: #404BBF  
 } 
+.features{
+ padding: 120px 0 
+}
+.features-list-content{
+ width: calc((100% - 72px) / 4); 
+}
 .features-list{
   display: flex;
   gap: 24px;
@@ -110,16 +116,12 @@ img{
    line-height: 1.2 ;
     letter-spacing: 0.02em;
    color:#2e2f42;
-   width: calc((100% - 72px) / 4);
-   margin-bottom: 8px;
 }
 .features-title-text{
     line-height: 1.5;
     letter-spacing: 0.02em; 
 }
-.container-features{
- padding: 120px 0;
-}
+
 .review-main{
     background-color: #F4F4FD;
 }
